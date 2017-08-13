@@ -268,7 +268,10 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   materialize-sass
+<<<<<<< HEAD
   nginx
+=======
+>>>>>>> upstream/shubhamg931
   omniauth-facebook
   pg
   puma (~> 3.0)

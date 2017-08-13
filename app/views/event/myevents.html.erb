@@ -278,5 +278,25 @@
         document.getElementById(boxName).style.display="none";
         document.getElementById(imgName).style.display="block";
 
+<<<<<<< HEAD
     }
 </script>
+=======
+
+<%@event.each do |v|%>
+
+<% event=Event.find_by_id(v.id)%>
+
+<img src="/uploads/<%= event.image%>"><br>
+<%= event.Event_id%><br>
+<%= event.Name%><br>
+<%= event.about%><br>
+<%= event.facebook_link%><br>
+<%= event.organizer1_name%><br>
+<%= event.organizer1_phone%><br>
+<%= event.organizer2_name%><br>
+<%= event.organizer2_phone%><br>
+<%= event.date%>
+<%= event.time%>
+<%end%>
+>>>>>>> upstream/shubhamg931
