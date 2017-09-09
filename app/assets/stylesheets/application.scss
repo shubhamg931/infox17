@@ -21,6 +21,11 @@
 @import "materialize";
 
 
+body {
+    background:url('/uploads/contactbg.jpg');
+    background-size:cover;
+}
+
 ::-webkit-scrollbar {
     height: 12px;
     width: 12px;
@@ -140,7 +145,7 @@ footer li{
      font-size: 2em;
   }
   #social_links {
-    position: fixed;
+    position: fixed;    
     z-index: 10000;
     right: 0px;
     top: 65px;

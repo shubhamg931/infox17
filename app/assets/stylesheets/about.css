@@ -1,8 +1,6 @@
 body {
     font-family:Arial;
     font-size:12px;
-    background:url('/uploads/contactbg.jpg');
-    background-size:cover;
 }
 #carousel {
     width:100%;
